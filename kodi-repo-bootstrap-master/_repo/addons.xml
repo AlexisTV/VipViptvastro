@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.Viptv-AStro-file" name="Viptv-AStro" version="0.1.0" provider-name="AlexisTV">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Viptv-AStro">
+            <info compressed="false">https://raw.githubusercontent.com/AlexisTV/VipViptvastro/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/AlexisTV/VipViptvastro/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/VipViptvastro/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Viptv-Repositorio</summary>
+            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
